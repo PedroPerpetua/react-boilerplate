@@ -35,6 +35,10 @@
         "count": 2
       }
     ],
+    "max-len": [
+      "error",
+      80
+    ],
     "no-multiple-empty-lines": [
       "error",
       {
@@ -46,6 +50,15 @@
     "quotes": [
       "error",
       "single"
+    ],
+    "react/jsx-curly-spacing": [
+      "error",
+      {
+        "children": {
+          "when": "always"
+        },
+        "when": "never"
+      }
     ],
     "react/jsx-filename-extension": [
       "error",
