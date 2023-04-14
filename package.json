@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
-    "lint": "tsc && eslint --ext .ts,.tsx --fix ."
+    "lint": "tsc; eslint --ext .ts,.tsx --fix ."
   },
   "dependencies": {
     "@emotion/react": "11.10.6",
@@ -32,6 +32,7 @@
     "eslint-plugin-react-hooks": "4.6.0",
     "typescript": "5.0.4",
     "vite": "4.2.1",
+    "vite-plugin-checker": "0.5.6",
     "vite-plugin-eslint": "1.8.1"
   }
 }
