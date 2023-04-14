@@ -14,4 +14,7 @@ All library versions are also pinned. Due to the nature of Javascript packages, 
 ## Features
 
 ### Linting tools
-Eslint setup with the appropriate plugins and a convenience `yarn lint` script to run them.
+Eslint setup with the appropriate plugins and a convenience `yarn lint` script to run them. Vite plugins also configured to do real-time checking while developing.
+
+### MUI
+Installed with MUI out of the box for styling pages.
